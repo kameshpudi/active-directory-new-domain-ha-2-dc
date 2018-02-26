@@ -13,19 +13,22 @@
       "type": "securestring",
       "metadata": {
         "description": "The password for the Administrator account of the new VM and Domain"
-      }
+      },
+      "defaultValue": "Password@2017"
     },
     "domainName": {
       "type": "string",
       "metadata": {
         "description": "The FQDN of the AD Domain created "
-      }
+      },
+      "defaultValue": "lbgpreprod.com"
     },
     "dnsPrefix": {
       "type": "string",
       "metadata": {
         "description": "The DNS prefix for the public IP address used by the Load Balancer"
-      }
+      },
+      "defaultValue": "lbgaddev"
     },
     "pdcRDPPort": {
       "type": "int",
